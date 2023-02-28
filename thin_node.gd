@@ -1,5 +1,4 @@
 class_name ThinNode
 extends Sprite2D
 
-var velocity := Vector2(100, 100)
-
+var velocity := Vector2()

@@ -18,4 +18,3 @@ func _process(delta: float) -> void:
 	elif position.y > area.size.y:
 		position.y = area.size.y
 		velocity.y = -velocity.y
-
