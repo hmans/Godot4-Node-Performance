@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://p8e5egechxgf"]
+
+[ext_resource type="Texture2D" uid="uid://cvtxeilb3j72o" path="res://icon.svg" id="1_1b1vk"]
+[ext_resource type="Script" path="res://thin_node.gd" id="2_x6jwj"]
+
+[node name="ThinNode" type="Sprite2D" groups=["nodes"]]
+modulate = Color(1, 0.247059, 0.0784314, 1)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_1b1vk")
+script = ExtResource("2_x6jwj")

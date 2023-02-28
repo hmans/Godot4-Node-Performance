@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://rg2s46xbqmts"]
+
+[ext_resource type="Script" path="res://thin_nodes.gd" id="1_ydwta"]
+[ext_resource type="PackedScene" uid="uid://p8e5egechxgf" path="res://thin_node.tscn" id="2_rcs5v"]
+
+[node name="ThinNodes" type="Node2D"]
+script = ExtResource("1_ydwta")
+prefab = ExtResource("2_rcs5v")

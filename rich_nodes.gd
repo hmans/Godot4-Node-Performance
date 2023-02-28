@@ -3,8 +3,12 @@ extends Node2D
 
 @export var prefab : PackedScene
 
+func _ready() -> void:
+	for i in range(10000):
+		_make_node()
 
-func _on_timer_timeout() -> void:
+
+func _make_node() -> void:
 	var instance = prefab.instantiate()
 
 	# Assign random position
