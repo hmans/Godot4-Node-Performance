@@ -12,8 +12,6 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	for node in nodes:
-#		ThinNode.simulate(node, delta, area)
-
 		node.position += node.velocity * delta
 
 		if node.position.x < 0:

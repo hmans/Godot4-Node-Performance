@@ -1,9 +1,8 @@
 [gd_scene load_steps=3 format=3 uid="uid://chinx8681qvgi"]
 
-[ext_resource type="Texture2D" uid="uid://cvtxeilb3j72o" path="res://icon.svg" id="1_ybrdr"]
+[ext_resource type="Texture2D" uid="uid://c6wieoiyro16u" path="res://mini.png" id="1_w520t"]
 [ext_resource type="Script" path="res://rich_node.gd" id="2_aev58"]
 
 [node name="RichNode" type="Sprite2D"]
-scale = Vector2(0.2, 0.2)
-texture = ExtResource("1_ybrdr")
+texture = ExtResource("1_w520t")
 script = ExtResource("2_aev58")
