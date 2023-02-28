@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dotl02i34lkhv"]
+
+[ext_resource type="PackedScene" uid="uid://cc3skp377ghdi" path="res://rich_nodes.tscn" id="1_jbw55"]
+
+[node name="Benchmark" type="Node2D"]
+
+[node name="RichNodes" parent="." instance=ExtResource("1_jbw55")]
